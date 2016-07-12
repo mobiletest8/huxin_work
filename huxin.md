@@ -24,4 +24,7 @@
 * adb shell monkey -p —ignore-timeouts -v -v -v -p com.tencent.mm —throttle 5000 1000 打印最详细的日志，每个动作之间等待5秒，点击1000次
 * adb shell monkey  -v -v -v -p  com.tencent.mm --ignore-timeouts  --throttle 1000 1000  在运行monkey时出现错误也会执行monkey测试，运行100次每次延迟1秒 打印最详细的日志信息
 
+
+>Monkey:这个命令太过单调了，尝试查看官方文档之后，多使用参数组合来试试看
+
 ###安装ideviceinstaller, 下载一个任意open source的xcode project 在simulator上面运行
